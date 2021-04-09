@@ -1,4 +1,4 @@
-# Trydo-vue-template
+# Zameen Play
 
 ## Project setup
 
