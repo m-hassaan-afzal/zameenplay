@@ -27,7 +27,7 @@ const routes = [{
         path: '/Privacy',
         name: 'Privacy',
         meta: {
-            title: 'Home1'
+            title: 'Privacy'
         },
         component: () =>
             import ('../views/Privacy.vue')
@@ -36,10 +36,10 @@ const routes = [{
         path: '/app-ads.txt',
         name: 'app-ads.txt',
         meta: {
-            title: 'app-ads'
+            title: 'app-ads.txt'
         },
         component: () =>
-            import ('../views/app-ads.txt')
+            import ('../views/appads.vue')
     },
 ]
 
