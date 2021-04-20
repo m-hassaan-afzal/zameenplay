@@ -32,6 +32,15 @@ const routes = [{
         component: () =>
             import ('../views/Privacy.vue')
     },
+    {
+        path: '/app-ads.txt',
+        name: 'app-ads.txt',
+        meta: {
+            title: 'app-ads'
+        },
+        component: () =>
+            import ('../views/app-ads.txt')
+    },
 ]
 
 const router = new VueRouter({
